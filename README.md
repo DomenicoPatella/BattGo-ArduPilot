@@ -29,3 +29,5 @@ With the development kit i started to write the support for ArduPilot firmware (
 https://github.com/DomenicoPatella/ardupilot (BattGo brunch)
 I  mounted the small PCB inside the lipo 4S battery 
 
+![diagram](https://github.com/domenicopatella/BattGo-ArduPilot-/blob/master/Media/immagine.png)
+
