@@ -28,6 +28,17 @@ ISDT offer a development KIT
 With the development kit i started to write the support for ArduPilot firmware (3.7.0 dev)
 https://github.com/DomenicoPatella/ardupilot (BattGo brunch)
 I  mounted the small PCB inside the lipo 4S battery 
-
 ![diagram](https://github.com/domenicopatella/BattGo-ArduPilot-/blob/master/Media/immagine.png)
+I wrote the backend driver and i tested  the firware in SITL mode with BGlinker on the serial port
+The protocol is in ASCII mod. 
+The flight controlloer  send the request with an specific ID command , the smart battery responde with an Ack message
+There are several messsages , someone of these require new variables to store the informations. 
+At the moment i used the parameters already defined in the program
+Battery Voltage
+Battery Cells
+Serial number 
+Current*
 
+
+
+At the moment the  UVC message is the most interesting , i read the battery voltage the temperature  and the  cells voltage.
