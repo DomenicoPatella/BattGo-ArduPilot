@@ -25,3 +25,7 @@ ISDT offer a development KIT
 ![diagram](https://github.com/domenicopatella/BattGo-ArduPilot-/blob/master/Media/BattGO AT Command Communication Protocol_1.3.xls)
  
 
+With the development kit i started to write the support for ArduPilot firmware (3.7.0 dev)
+https://github.com/DomenicoPatella/ardupilot (BattGo brunch)
+I  mounted the small PCB inside the lipo 4S battery 
+
