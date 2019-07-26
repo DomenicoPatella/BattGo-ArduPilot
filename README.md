@@ -29,6 +29,7 @@ With the development kit i started to write the support for ArduPilot firmware (
 https://github.com/DomenicoPatella/ardupilot (BattGo brunch)
 I  mounted the small PCB inside the lipo 4S battery 
 ![diagram](https://github.com/domenicopatella/BattGo-ArduPilot-/blob/master/Media/immagine.png)
+
 I wrote the backend driver and i tested  the firware in SITL mode with BGlinker on the serial port
 The protocol is in ASCII mod. 
 The flight controlloer  send the request with an specific ID command , the smart battery responde with an Ack message
