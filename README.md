@@ -43,3 +43,5 @@ Current*
 
 
 At the moment the  UVC message is the most interesting , i read the battery voltage the temperature  and the  cells voltage.
+
+![diagram](https://github.com/domenicopatella/BattGo-ArduPilot-/blob/master/Media/window.png)
