@@ -21,18 +21,19 @@ When you connect the LiPo battery to a BattGo compatible charger or voltage chec
 This information is all stored inside the battery pack, as well as battery charging preferences and settings such as the charge current, and when to Auto-storage.
 That’s right, BattGo batteries can automatically discharge themselves to storage voltage if they are left charged for too long (set by the user). Truly smart batterers.
 
-ISDT sell a development KIT 
- 
+ISDT sell a development KIT, basically a serial uart converter to comunicate and 4 PCB Smartbattery  (3s/4s/5s/6s)
 
-With the development kit i started to write the support for ArduPilot firmware (3.7.0 dev)
-https://github.com/DomenicoPatella/ardupilot (BattGo brunch)
-I  mounted the small PCB inside the lipo 4S battery 
+![diagram](https://github.com/domenicopatella/BattGo-ArduPilot-/blob/master/Media/developmentkit.png) 
+
+
+Mounting small PCB inside the lipo 4S battery 
+
 ![diagram](https://github.com/domenicopatella/BattGo-ArduPilot-/blob/master/Media/immagine.png)
 
 
 
-I wrote the backend driver and i tested  the firware in SITL mode with BGlinker on the serial port
-The protocol is in ASCII mod. 
+I wrote the backend driver and  tested  the firware in SITL mode with BGlinker on the serial port
+The protocol is in ASCII mode 
 The flight controlloer  send the request with an specific ID command , the smart battery responde with an Ack message
 There are several messsages , someone of these require new variables to store the informations. 
 At the moment i used the parameters already defined in the program
@@ -41,9 +42,10 @@ Battery Cells
 Serial number 
 Current*
 
+Battgo support for ArduPilot firmware (3.7.0 dev)
+https://github.com/DomenicoPatella/ardupilot/tree/Battgo
 
-
-At the moment the  UVC message is the most interesting , i read the battery voltage the temperature  and the  cells voltage.
+Added a window utilitiy in Mission Planner to read information from smartbatery
 
 ![diagram](https://github.com/DomenicoPatella/BattGo-ArduPilot/blob/master/Media/WIndow.png)
 
