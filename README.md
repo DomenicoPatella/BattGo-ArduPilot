@@ -25,9 +25,6 @@ ISDT sell a development KIT, basically a serial uart converter to comunicate and
 
 ![diagram](https://github.com/domenicopatella/BattGo-ArduPilot-/blob/master/Media/developmentkit.png) 
 
-I started to write the support for ArduPilot firmware (3.7.0 dev)
-https://github.com/DomenicoPatella/ardupilot/tree/Battgo
-
 
 Mounting small PCB inside the lipo 4S battery 
 
@@ -35,7 +32,7 @@ Mounting small PCB inside the lipo 4S battery
 
 
 
-I wrote the backend driver and i tested  the firware in SITL mode with BGlinker on the serial port
+I wrote the backend driver and  tested  the firware in SITL mode with BGlinker on the serial port
 The protocol is in ASCII mode 
 The flight controlloer  send the request with an specific ID command , the smart battery responde with an Ack message
 There are several messsages , someone of these require new variables to store the informations. 
@@ -44,6 +41,11 @@ Battery Voltage
 Battery Cells
 Serial number 
 Current*
+
+Battgo support for ArduPilot firmware (3.7.0 dev)
+https://github.com/DomenicoPatella/ardupilot/tree/Battgo
+
+Added a window utilitiy in Mission Planner to read information from smartbatery
 
 ![diagram](https://github.com/DomenicoPatella/BattGo-ArduPilot/blob/master/Media/WIndow.png)
 
