@@ -21,8 +21,7 @@ When you connect the LiPo battery to a BattGo compatible charger or voltage chec
 This information is all stored inside the battery pack, as well as battery charging preferences and settings such as the charge current, and when to Auto-storage.
 That’s right, BattGo batteries can automatically discharge themselves to storage voltage if they are left charged for too long (set by the user). Truly smart batterers.
 
-ISDT offer a development KIT
-![diagram](https://github.com/domenicopatella/BattGo-ArduPilot-/blob/master/Media/BattGO AT Command Communication Protocol_1.3.xls)
+ISDT sell a development KIT 
  
 
 With the development kit i started to write the support for ArduPilot firmware (3.7.0 dev)
@@ -47,4 +46,5 @@ Current*
 At the moment the  UVC message is the most interesting , i read the battery voltage the temperature  and the  cells voltage.
 
 ![diagram](https://github.com/DomenicoPatella/BattGo-ArduPilot/blob/master/Media/WIndow.png)
+
 
