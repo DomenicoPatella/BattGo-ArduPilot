@@ -22,7 +22,6 @@ This information is all stored inside the battery pack, as well as battery charg
 That’s right, BattGo batteries can automatically discharge themselves to storage voltage if they are left charged for too long (set by the user). Truly smart batterers.
 
 ISDT offer a development KIT
-![diagram](https://github.com/domenicopatella/BattGo-ArduPilot-/blob/master/Media/BattGO AT Command Communication Protocol_1.3.xls)
  
 
 With the development kit i started to write the support for ArduPilot firmware (3.7.0 dev)
